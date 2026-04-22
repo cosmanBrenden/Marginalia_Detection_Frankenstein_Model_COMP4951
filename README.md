@@ -41,6 +41,12 @@ chmod u+x ./script/*.sh
 ```
 Please execute scripts from the root of the repository, so that paths are correctly read.
 
+# Running Scripts
+
+For all the training, use the scripts "BigL.sh", "SmallL.sh", "luu.sh" and "ext_study.sh". After training a model fully, run "cleanup.sh".
+
+For testing, run "test.py", and direct it to "./data/test_images" and give it the "rescaled_data.csv" CSV file.
+
 # References
 
 Cheng, L., Frankemölle, J., Axelsson, A., & Vats, E. (2024, March). Uncovering the Handwritten Text in the Margins: End-to-end Handwritten Text Detection and Recognition. Proceedings of the 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2024), 111–120. doi:10.18653/v1/2024.latechclfl-1.12
